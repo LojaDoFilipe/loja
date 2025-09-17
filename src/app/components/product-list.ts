@@ -25,8 +25,10 @@ import type { Product, Brand } from '../models/product';
       </div>
     } @else {
       <div class="brand-products-view">
-        
-        <h2 class="brand-header"><button class="back-to-brands" (click)="clearBrand()">← Voltar para Marcas</button> {{ selectedBrand() }}</h2>
+        <div class="brand-header">
+          <button class="back-to-brands" (click)="clearBrand()">← Voltar para Marcas</button> 
+           <h2>{{ selectedBrand() }}</h2>
+        </div>
         <div class="search-bar">
           <input
             type="search"
