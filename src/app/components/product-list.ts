@@ -42,6 +42,7 @@ import type { Product, Brand } from '../models/product';
             <product-card
               [product]="product"
               (imageClicked)="openImage(product)"
+              (cardClosed)="closeImage()"
             />
           }
           @if (filteredByBrand(selectedBrand()).length === 0) {
