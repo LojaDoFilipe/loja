@@ -23,7 +23,7 @@ import type { Product } from '../models/product';
       />
       <div class="product-info">
         <span class="product-name">{{ product()?.name }}</span>
-        <span class="product-price">{{ currency.transform(product()?.price, 'EUR') }}</span>
+        <span class="product-price">{{ product()?.price }} €</span>
       </div>
     </div>
   `,
