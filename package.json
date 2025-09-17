@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --output-path docs --base-href /LojaDoFilipe/ && git add docs && git commit -m \"Deploy to GitHub Pages\" && git push"
+    "deploy": "ng build --output-path docs --base-href /loja/ && git add docs && git commit -m \"Deploy to GitHub Pages\" && git push"
   },
   "prettier": {
     "printWidth": 100,

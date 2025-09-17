@@ -14,7 +14,7 @@ import type { Product, Brand } from '../models/product';
   template: `
     @if (!selectedBrand()) {
       <div class="brand-select-list">
-        <h2 class="brand-select-title">Select a Brand</h2>
+        <h2 class="brand-select-title">Escolha a Marca</h2>
         <div class="brand-select-grid">
           @for (brand of brands(); track brand) {
             <button class="brand-card" (click)="selectBrand(brand)">
@@ -25,7 +25,7 @@ import type { Product, Brand } from '../models/product';
       </div>
     } @else {
       <div class="brand-products-view">
-        <button class="back-to-brands" (click)="clearBrand()">← Back to Brands</button>
+        <button class="back-to-brands" (click)="clearBrand()">← Voltar para Marcas</button>
         <h2 class="brand-header">{{ selectedBrand() }}</h2>
         <div class="search-bar">
           <input
@@ -45,7 +45,7 @@ import type { Product, Brand } from '../models/product';
             />
           }
           @if (filteredByBrand(selectedBrand()).length === 0) {
-            <div class="no-products">No products found.</div>
+            <div class="no-products">Nenhum produto encontrado.</div>
           }
         </div>
       </div>
