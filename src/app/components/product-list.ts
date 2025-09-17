@@ -30,11 +30,11 @@ import type { Product, Brand } from '../models/product';
         <div class="search-bar">
           <input
             type="search"
-            placeholder="Search products..."
+            placeholder="Pesquisar produtos..."
             [value]="search()"
             (input)="onSearch($event.target.value)"
             class="search-input"
-            aria-label="Search products"
+            aria-label="Pesquisar produtos"
           />
         </div>
         <div class="product-list-grid">
