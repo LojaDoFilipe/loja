@@ -12,7 +12,7 @@ import type { Product } from '../models/product';
   },
   template: `
     <div class="card-content">
-       <button class="close-button" (click)="closeCard()">×</button>
+       <button  (click)="closeCard()">×</button>
       <img
         ngOptimizedImage
         [ngSrc]="product()?.imageUrl ?? ''"
