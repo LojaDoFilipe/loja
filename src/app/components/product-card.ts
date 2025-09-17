@@ -12,7 +12,6 @@ import type { Product } from '../models/product';
   },
   template: `
     <div class="card-content">
-       <button  (click)="closeCard()">×</button>
       <img
         ngOptimizedImage
         [ngSrc]="product()?.imageUrl ?? ''"
@@ -34,14 +33,9 @@ import type { Product } from '../models/product';
 export class ProductCardComponent {
   product = input<Product>();
   imageClicked = output<void>();
-  cardClosed = output<void>();
   currency = new CurrencyPipe('en');
 
   showImage() {
     this.imageClicked.emit();
-  }
-
-  closeCard() {
-    this.cardClosed.emit();
   }
 }
