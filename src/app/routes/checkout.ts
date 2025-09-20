@@ -298,14 +298,14 @@ declare let grecaptcha: any;
       }
       .back-confirm-cancel {
         background: #fff;
-        color: var(--color-primary-accent);
+        color: var(--color-primary);
         border: 1px solid var(--color-primary-accent);
         transition: background 0.18s, color 0.18s, border 0.18s;
       }
       .back-confirm-cancel:hover,
       .back-confirm-cancel:focus {
         background: #f3f4f6;
-        color: var(--color-primary-accent) !important;
+        color: var(--color-primary) !important;
         border: 1.5px solid var(--color-primary-accent);
         box-shadow: 0 2px 8px rgba(255, 138, 36, 0.08);
       }
@@ -492,7 +492,7 @@ declare let grecaptcha: any;
       .summary-price,
       .summary-line-total {
         font-size: 0.98rem;
-        color: var(--color-text);
+        color: var(--color-primary);
       }
       .summary-size span,
       .summary-qty span,
