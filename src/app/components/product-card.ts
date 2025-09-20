@@ -29,7 +29,7 @@ import { CartService } from '../services/cart.service';
         />
       </div>
       <div class="product-info">
-        <span class="product-name">
+        <span >
           {{ product()?.name?.toUpperCase() }}
           @if (product()?.size) {
             <span class="product-size"> {{ product()?.size }}</span>
