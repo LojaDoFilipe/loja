@@ -16,7 +16,7 @@
   .site-main { min-height:58vh; }
 }
 
-.site-footer { background:var(--color-surface-alt); padding:1.1rem 0 1.2rem; border-top:1px solid var(--color-border); margin-top:2.5rem; }
+.site-footer { background:var(--color-surface-alt); color: var(--color-text-secondary); padding:1.1rem 0 1.2rem; border-top:1px solid var(--color-border); margin-top:2.5rem; }
 .footer-inner { display:flex; flex-wrap:wrap; gap:2.5rem; justify-content:space-between; }
 .footer-brand { display:flex; align-items:center; gap:.65rem; font-size:1rem; }
 .footer-col { max-width:320px; font-size:.7rem; line-height:1.35; }

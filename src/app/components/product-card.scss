@@ -92,6 +92,7 @@ product-card, .product-card {
 .product-card:hover .product-image { transform: scale(1.02); }
 .product-info { display: flex; flex-direction: column; align-items: center; text-align: center; }
 .product-price {
+  -webkit-text-fill-color: transparent;
   color: var(--color-primary); /* Fallback for browsers that don't support background-clip */
   background: var(--color-primary-gradient);
   -webkit-background-clip: text;
