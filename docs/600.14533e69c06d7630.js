@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklojadofilipe=self.webpackChunklojadofilipe||[]).push([[600],{600:(c,e,t)=>{t.r(e),t.d(e,{cartNotEmptyGuard:()=>a});var s=t(6868);const a=(r,o)=>(new s.m).items().length>0}}]);
