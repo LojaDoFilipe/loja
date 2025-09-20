@@ -39,7 +39,7 @@
               "src/styles.scss"
             ],
             "outputPath": "docs",
-            "baseHref": "/"
+            "baseHref": "/loja/"
           },
           "configurations": {
             "production": {
@@ -61,7 +61,7 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true,
-              "baseHref": "/lojadofilipe/"
+              "baseHref": "/loja/"
             }
           },
           "defaultConfiguration": "production"
