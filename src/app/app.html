@@ -1,1 +1,36 @@
-<product-list />
+<header class="site-header" role="banner">
+		<div class="container header-inner">
+			<a class="brand-block" href="" aria-label="Ir para início">
+			<span class="logo-circle" aria-hidden="true">🎣</span>
+			<span class="brand-text">
+				<strong class="site-name">Loja do Filipe</strong>
+			</span>
+			</a>
+		<div class="header-actions">
+			<div class="shipping-hint" aria-label="Portes grátis a partir de 60 euros">Portes grátis ≥ 60 €</div>
+		</div>
+	</div>
+	<div class="header-wave" aria-hidden="true"></div>
+</header>
+<main id="conteudo" class="site-main" tabindex="-1">
+	<router-outlet></router-outlet>
+</main>
+@if (!isCheckoutPage()) {
+	<cart-fab></cart-fab>
+}
+<footer class="site-footer" role="contentinfo">
+	<div class="container footer-inner">
+		<div class="footer-col">
+			<div class="footer-brand">
+				<span class="logo-circle small">🎣</span>
+				<strong>Loja do Filipe</strong>
+			</div>
+			<p class="mission">Produtos selecionados para a sua próxima captura.</p>
+		</div>
+		<div class="footer-col">
+			<p class="mini">Portes grátis em encomendas ≥ 60 €. Envio rápido.</p>
+			<p class="mini muted">&copy; {{ year }} Loja do Filipe.</p>
+		</div>
+	</div>
+</footer>
+<toast-container></toast-container>

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "LojaDoFilipe": {
+    "lojadofilipe": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -28,11 +28,18 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
               }
             ],
             "styles": [
               "src/styles.scss"
-            ]
+            ],
+            "outputPath": "docs",
+            "baseHref": "/"
           },
           "configurations": {
             "production": {
@@ -53,30 +60,29 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "baseHref": "/lojadofilipe/"
             }
           },
-          "defaultConfiguration": "production",
-          "outputPath": "docs",
-          "baseHref": "/LojaDoFilipe/"
+          "defaultConfiguration": "production"
         },
         "serve": {
-          "builder": "@angular/build:dev-server",
+    "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "LojaDoFilipe:build:production"
+              "buildTarget": "lojadofilipe:build:production"
             },
             "development": {
-              "buildTarget": "LojaDoFilipe:build:development"
+              "buildTarget": "lojadofilipe:build:development"
             }
           },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
-          "builder": "@angular/build:extract-i18n"
+    "builder": "@angular-devkit/build-angular:extract-i18n"
         },
         "test": {
-          "builder": "@angular/build:karma",
+    "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "polyfills": [
               "zone.js",
@@ -97,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
