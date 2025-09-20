@@ -91,7 +91,7 @@ export const PRODUCTS: Product[] = [
     { id: 'yamashita-egisutte-rndx-2.5-bo', name: 'Egi Sutte R NDX BO', size: '2.5', price: 9, imageUrl: 'assets/images/watermarked/yamashita/yamashitaegisutterndx2.5BO.jpeg', brand: 'Yamashita' },
     { id: 'yamashita-egisutte-rndx-2.5-bp', name: 'Egi Sutte R NDX BP', size: '2.5', price: 9, imageUrl: 'assets/images/watermarked/yamashita/yamashitaegisutterndx2.5BP.jpeg', brand: 'Yamashita' },
     { id: 'yamashita-egisutte-rndx-2.5-bv', name: 'Egi Sutte R NDX BV', size: '2.5', price: 9, imageUrl: 'assets/images/watermarked/yamashita/yamashitaegisutterndx2.5BV.jpeg', brand: 'Yamashita' },
-    { id: 'yamashita-toto-sutte-m95-bv', name: 'Toto Sutte M95 BV', size: 'M95', price: 9, imageUrl: 'assets/images/watermarked/yamashita/yamashita toto sutte M95 BV.jpeg', brand: 'Yamashita' },
+    { id: 'yamashita-toto-sutte-m95-bv', name: 'Toto Sutte M95 BV', size: 'M95', price: 9, imageUrl: 'assets/images/watermarked/yamashita/yamashitatotosutteM95BV.jpeg', brand: 'Yamashita' },
     { id: 'yamashita-toto-sutte-slim-r-basic-s95n-aoc', name: 'Toto Sutte Slim R Basic AOC', size: 'S95N', price: 8.5, imageUrl: 'assets/images/watermarked/yamashita/yamashitatotosutteslimrbasics95nAOC.jpeg', brand: 'Yamashita' },
     { id: 'yamashita-toto-sutte-slim-r-basic-s95n-ly', name: 'Toto Sutte Slim R Basic LY', size: 'S95N', price: 8.5, imageUrl: 'assets/images/watermarked/yamashita/yamashitatotosutteslimrbasics95nLY.jpeg', brand: 'Yamashita' },
     { id: 'yamashita-toto-sutte-slim-r-basic-s95n-o', name: 'Toto Sutte Slim R Basic O', size: 'S95N', price: 8.5, imageUrl: 'assets/images/watermarked/yamashita/yamashitatotosutteslimrbasics95nO.jpeg', brand: 'Yamashita' },
