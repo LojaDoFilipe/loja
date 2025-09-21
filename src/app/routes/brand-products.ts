@@ -15,7 +15,6 @@ import { ProductCardComponent } from '../components/product-card';
     <div class="brand-products-view">
       <div class="brand-header">
         <a routerLink="/" class="back-to-brands">← Voltar para Marcas</a>
-        <h2>{{ brand() }}</h2>
         <div class="search-row">
           <input
             type="search"
