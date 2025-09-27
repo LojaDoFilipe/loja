@@ -91,6 +91,8 @@ export class BrandSelectComponent {
         return 'assets/images/marcas/yamashita.jpg';
       case 'DTD':
         return 'assets/images/marcas/DTD.jpg';
+      case 'lowcost':
+        return 'assets/images/marcas/lowCost.jpg';
       default:
         return 'assets/images/marcas/tag.jpg';
     }

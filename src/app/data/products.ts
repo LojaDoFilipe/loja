@@ -798,7 +798,7 @@ export const PRODUCTS: Product[] = [
     name: 'ace go IY',
     size: '2.5',
     price: 7.5,
-    imageUrl: 'assets/images/watermarked/DTD/ace_go_2.5_IY.jpeg',
+    imageUrl: 'assets/images/watermarked/outrasmarcas/ace_go_2.5_IY.jpeg',
     brand: 'Outras Marcas',
   },
   {
@@ -806,7 +806,7 @@ export const PRODUCTS: Product[] = [
     name: 'ace go kn',
     size: '2.5',
     price: 7.5,
-    imageUrl: 'assets/images/watermarked/DTD/ace_go_2.5_kn.jpeg',
+    imageUrl: 'assets/images/watermarked/outrasmarcas/ace_go_2.5_kn.jpeg',
     brand: 'Outras Marcas',
   },
   {
@@ -814,7 +814,7 @@ export const PRODUCTS: Product[] = [
     name: 'ace go P',
     size: '2.5',
     price: 7.5,
-    imageUrl: 'assets/images/watermarked/DTD/ace_go_2.5_P.jpeg',
+    imageUrl: 'assets/images/watermarked/outrasmarcas/ace_go_2.5_P.jpeg',
     brand: 'Outras Marcas',
   },
   {
@@ -822,31 +822,33 @@ export const PRODUCTS: Product[] = [
     name: 'ace go redHead',
     size: '2.5',
     price: 7.5,
-    imageUrl: 'assets/images/watermarked/DTD/ace_go_2.5_redHead.jpeg',
+    imageUrl: 'assets/images/watermarked/outrasmarcas/ace_go_2.5_redHead.jpeg',
     brand: 'Outras Marcas',
   },
   {
     id: 'ace_go_2.5_sardine',
     name: 'ace go sardine',
     size: '2.5',
-    price: 0,
-    imageUrl: 'assets/images/watermarked/DTD/ace_go_2.5_sardine.jpeg',
+    price: 7.5,
+    imageUrl: 'assets/images/watermarked/outrasmarcas/ace_go_2.5_sardine.jpeg',
     brand: 'Outras Marcas',
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  {
+    id: 'fukushima_2.5_pc',
+    name: 'fukushima 2.5 PC',
+    size: '2.5',
+    price: 8,
+    imageUrl: 'assets/images/watermarked/outrasmarcas/fukushima2.5.jpeg',
+    brand: 'Outras Marcas',
+  },
+  {
+    id: 'ace_go_3.0_sardine',
+    name: 'fukushima 3.0 PC',
+    size: '3.0',
+    price: 8,
+    imageUrl: 'assets/images/watermarked/outrasmarcas/fukushima3.0.jpeg',
+    brand: 'Outras Marcas',
+  },
 
   //DTD
   {
@@ -1009,14 +1011,7 @@ export const PRODUCTS: Product[] = [
     imageUrl: 'assets/images/watermarked/DTD/kanjac_s_brown.jpeg',
     brand: 'DTD',
   },
-  {
-    id: 'pirka_s_blue',
-    name: 'pirka blue',
-    size: 'S',
-    price: 7.5,
-    imageUrl: 'assets/images/watermarked/DTD/pirka_s_blue.jpeg',
-    brand: 'DTD',
-  },
+
   {
     id: 'pirka_s_red',
     name: 'pirka red',
@@ -1368,5 +1363,466 @@ export const PRODUCTS: Product[] = [
     price: 8,
     imageUrl: 'assets/images/watermarked/DTD/x_fish_s_rainbow.jpeg',
     brand: 'DTD',
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //LOW COST
+  {
+    id: 'ajtoto_S95',
+    name: 'ajtoto',
+    size: 'S95',
+    price: 2.5,
+    imageUrl: 'assets/images/watermarked/lowcost/ajtoto_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'AJ_2.5',
+    name: 'AJ',
+    size: '2.5',
+    price: 2.5,
+    imageUrl: 'assets/images/watermarked/lowcost/AJ_2.5.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'amarelo_S95',
+    name: 'amarelo',
+    size: 'S95',
+    price: 2.5,
+    imageUrl: 'assets/images/watermarked/lowcost/amarelo_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'AN_S95',
+    name: 'AN',
+    size: 'S95',
+    price: 2.5,
+    imageUrl: 'assets/images/watermarked/lowcost/AN_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'blackglow_S95',
+    name: 'blackglow',
+    size: 'S95',
+    price: 2.5,
+    imageUrl: 'assets/images/watermarked/lowcost/blackglow_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'blackpurple_S95',
+    name: 'blackpurple',
+    size: 'S95',
+    price: 2.5,
+    imageUrl: 'assets/images/watermarked/lowcost/blackpurple_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'black_S95',
+    name: 'black',
+    size: 'S95',
+    price: 2.5,
+    imageUrl: 'assets/images/watermarked/lowcost/black_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'bluerainbow_S95',
+    name: 'bluerainbow',
+    size: 'S95',
+    price: 2.5,
+    imageUrl: 'assets/images/watermarked/lowcost/bluerainbow_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'camo_S95',
+    name: 'camo',
+    size: 'S95',
+    price: 2.5,
+    imageUrl: 'assets/images/watermarked/lowcost/camo_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'cavala_S95',
+    name: 'cavala',
+    size: 'S95',
+    price: 2.5,
+    imageUrl: 'assets/images/watermarked/lowcost/cavala_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'cavalinha_M',
+    name: 'cavalinha',
+    size: 'M',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/cavalinha_M.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'coral_2.5',
+    name: 'coral',
+    size: '2.5',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/coral_2.5.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'crab_2.5',
+    name: 'crab',
+    size: '2.5',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/crab_2.5.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'laranjarainbow_S95',
+    name: 'laranjarainbow',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/laranjarainbow_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'laranja_S95',
+    name: 'laranja',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/laranja_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'laserazulglow_S',
+    name: 'laserazulglow',
+    size: 'S',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/laserazulglow_S.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'laserrh_S',
+    name: 'laserrh',
+    size: 'S',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/laserrh_S.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'laserrosaglow_S',
+    name: 'laserrosaglow',
+    size: 'S',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/laserrosaglow_S.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'milho_S95',
+    name: 'milho',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/milho_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'OB_S',
+    name: 'OB',
+    size: 'S',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/OB_S.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'OG_S',
+    name: 'OG',
+    size: 'S',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/OG_S.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'Olaranja_S',
+    name: 'Olaranja',
+    size: 'S',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/Olaranja_S.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'OPC_S',
+    name: 'OPC',
+    size: 'S',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/OPC_S.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'OP_S',
+    name: 'OP',
+    size: 'S',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/OP_S.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'Orainbow_S',
+    name: 'Orainbow',
+    size: 'S',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/Orainbow_S.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'ORH_S',
+    name: 'ORH',
+    size: 'S',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/ORH_S.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'purpleblack_S95',
+    name: 'purpleblack',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/purpleblack_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'purpleyellow_S95',
+    name: 'purpleyellow',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/purpleyellow_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'rainbow_2.2',
+    name: 'rainbow',
+    size: '2.2',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/rainbow_2.2.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'redgreen_S95',
+    name: 'redgreen',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/redgreen_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'rednatural_S95',
+    name: 'rednatural',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/rednatural_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'redyellow_2.5',
+    name: 'redyellow',
+    size: '2.5',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/redyellow_2.5.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'redyellow_S95',
+    name: 'redyellow',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/redyellow_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'red_2.5',
+    name: 'red',
+    size: '2.5',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/red_2.5.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'rhrh_S95',
+    name: 'rhrh',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/rhrh_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'rhsargo_S95',
+    name: 'rhsargo',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/rhsargo_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'rhseda_S95',
+    name: 'rhseda',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/rhseda_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'rosashrimp_S95',
+    name: 'rosashrimp',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/rosashrimp_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'roxo_S95',
+    name: 'roxo',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/roxo_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'salmao_S95',
+    name: 'salmao',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/salmao_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'sand_2.2',
+    name: 'sand',
+    size: '2.2',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/sand_2.2.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'sardinha_S95',
+    name: 'sardinha',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/sardinha_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'sargo_S95',
+    name: 'sargo',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/sargo_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'tainha_S95',
+    name: 'tainha',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/tainha_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'totorainbow_S95',
+    name: 'totorainbow',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/totorainbow_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'whiterainbow_S95',
+    name: 'whiterainbow',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/whiterainbow_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'white_S95',
+    name: 'white',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/white_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'yellorainbow_S95',
+    name: 'yellorainbow',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/yellorainbow_S95.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'yellowblack_2.5',
+    name: 'yellowblack',
+    size: '2.5',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/yellowblack_2.5.jpeg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'yellownatural_S95',
+    name: 'yellownatural',
+    size: 'S95',
+    price: 2.5,
+    imageUrl:
+      'assets/images/watermarked/lowcost/yellownatural_S95.jpeg',
+    brand: 'lowcost',
   },
 ];

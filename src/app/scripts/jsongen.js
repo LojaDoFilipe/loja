@@ -27,7 +27,7 @@ function createProductObject(imageName) {
   const name = id.replace(/_/g, ' ');  // Replace underscores with spaces
   const size = extractSize(id);  // Extract size from image name
   const price = 0;  // All prices are 0 as per your request
-  const imageUrl = `C:/Users/dfili/Desktop/LojaFilipeSite/LojaDoFilipe/src/assets/images/watermarked/dtd/${imageName}`;
+  const imageUrl = `assets/images/watermarked/dtd/${imageName}`;
   
   return {
     id,
