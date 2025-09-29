@@ -1365,26 +1365,23 @@ export const PRODUCTS: Product[] = [
     brand: 'DTD',
   },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   //LOW COST
+  {
+    id: 'ryoshi_RG_2.5',
+    name: 'Ryoshi RG',
+    size: '2.5',
+    price: 2.1,
+    imageUrl: 'assets/images/watermarked/lowcost/ryoshi_RG_2.5.jpg',
+    brand: 'lowcost',
+  },
+  {
+    id: 'ryoshi_Y_2.5',
+    name: 'Ryoshi Y',
+    size: '2.5',
+    price: 2.1,
+    imageUrl: 'assets/images/watermarked/lowcost/ryoshi_Y_2.5.jpg',
+    brand: 'lowcost',
+  },
   {
     id: 'ajtoto_S95',
     name: 'ajtoto',
@@ -1470,8 +1467,7 @@ export const PRODUCTS: Product[] = [
     name: 'cavalinha',
     size: 'M',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/cavalinha_M.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/cavalinha_M.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1479,8 +1475,7 @@ export const PRODUCTS: Product[] = [
     name: 'coral',
     size: '2.5',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/coral_2.5.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/coral_2.5.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1488,8 +1483,7 @@ export const PRODUCTS: Product[] = [
     name: 'crab',
     size: '2.5',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/crab_2.5.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/crab_2.5.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1497,8 +1491,7 @@ export const PRODUCTS: Product[] = [
     name: 'laranjarainbow',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/laranjarainbow_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/laranjarainbow_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1506,8 +1499,7 @@ export const PRODUCTS: Product[] = [
     name: 'laranja',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/laranja_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/laranja_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1515,8 +1507,7 @@ export const PRODUCTS: Product[] = [
     name: 'laserazulglow',
     size: 'S',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/laserazulglow_S.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/laserazulglow_S.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1524,8 +1515,7 @@ export const PRODUCTS: Product[] = [
     name: 'laserrh',
     size: 'S',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/laserrh_S.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/laserrh_S.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1533,8 +1523,7 @@ export const PRODUCTS: Product[] = [
     name: 'laserrosaglow',
     size: 'S',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/laserrosaglow_S.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/laserrosaglow_S.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1542,8 +1531,7 @@ export const PRODUCTS: Product[] = [
     name: 'milho',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/milho_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/milho_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1551,8 +1539,7 @@ export const PRODUCTS: Product[] = [
     name: 'OB',
     size: 'S',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/OB_S.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/OB_S.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1560,8 +1547,7 @@ export const PRODUCTS: Product[] = [
     name: 'OG',
     size: 'S',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/OG_S.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/OG_S.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1569,8 +1555,7 @@ export const PRODUCTS: Product[] = [
     name: 'Olaranja',
     size: 'S',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/Olaranja_S.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/Olaranja_S.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1578,8 +1563,7 @@ export const PRODUCTS: Product[] = [
     name: 'OPC',
     size: 'S',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/OPC_S.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/OPC_S.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1587,8 +1571,7 @@ export const PRODUCTS: Product[] = [
     name: 'OP',
     size: 'S',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/OP_S.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/OP_S.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1596,8 +1579,7 @@ export const PRODUCTS: Product[] = [
     name: 'Orainbow',
     size: 'S',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/Orainbow_S.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/Orainbow_S.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1605,8 +1587,7 @@ export const PRODUCTS: Product[] = [
     name: 'ORH',
     size: 'S',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/ORH_S.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/ORH_S.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1614,8 +1595,7 @@ export const PRODUCTS: Product[] = [
     name: 'purpleblack',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/purpleblack_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/purpleblack_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1623,8 +1603,7 @@ export const PRODUCTS: Product[] = [
     name: 'purpleyellow',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/purpleyellow_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/purpleyellow_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1632,8 +1611,7 @@ export const PRODUCTS: Product[] = [
     name: 'rainbow',
     size: '2.2',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/rainbow_2.2.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/rainbow_2.2.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1641,8 +1619,7 @@ export const PRODUCTS: Product[] = [
     name: 'redgreen',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/redgreen_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/redgreen_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1650,8 +1627,7 @@ export const PRODUCTS: Product[] = [
     name: 'rednatural',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/rednatural_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/rednatural_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1659,8 +1635,7 @@ export const PRODUCTS: Product[] = [
     name: 'redyellow',
     size: '2.5',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/redyellow_2.5.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/redyellow_2.5.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1668,8 +1643,7 @@ export const PRODUCTS: Product[] = [
     name: 'redyellow',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/redyellow_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/redyellow_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1677,8 +1651,7 @@ export const PRODUCTS: Product[] = [
     name: 'red',
     size: '2.5',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/red_2.5.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/red_2.5.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1686,8 +1659,7 @@ export const PRODUCTS: Product[] = [
     name: 'rhrh',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/rhrh_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/rhrh_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1695,8 +1667,7 @@ export const PRODUCTS: Product[] = [
     name: 'rhsargo',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/rhsargo_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/rhsargo_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1704,8 +1675,7 @@ export const PRODUCTS: Product[] = [
     name: 'rhseda',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/rhseda_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/rhseda_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1713,8 +1683,7 @@ export const PRODUCTS: Product[] = [
     name: 'rosashrimp',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/rosashrimp_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/rosashrimp_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1722,8 +1691,7 @@ export const PRODUCTS: Product[] = [
     name: 'roxo',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/roxo_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/roxo_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1731,8 +1699,7 @@ export const PRODUCTS: Product[] = [
     name: 'salmao',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/salmao_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/salmao_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1740,8 +1707,7 @@ export const PRODUCTS: Product[] = [
     name: 'sand',
     size: '2.2',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/sand_2.2.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/sand_2.2.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1749,8 +1715,7 @@ export const PRODUCTS: Product[] = [
     name: 'sardinha',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/sardinha_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/sardinha_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1758,8 +1723,7 @@ export const PRODUCTS: Product[] = [
     name: 'sargo',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/sargo_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/sargo_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1767,8 +1731,7 @@ export const PRODUCTS: Product[] = [
     name: 'tainha',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/tainha_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/tainha_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1776,8 +1739,7 @@ export const PRODUCTS: Product[] = [
     name: 'totorainbow',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/totorainbow_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/totorainbow_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1785,8 +1747,7 @@ export const PRODUCTS: Product[] = [
     name: 'whiterainbow',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/whiterainbow_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/whiterainbow_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1794,8 +1755,7 @@ export const PRODUCTS: Product[] = [
     name: 'white',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/white_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/white_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1803,8 +1763,7 @@ export const PRODUCTS: Product[] = [
     name: 'yellorainbow',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/yellorainbow_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/yellorainbow_S95.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1812,8 +1771,7 @@ export const PRODUCTS: Product[] = [
     name: 'yellowblack',
     size: '2.5',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/yellowblack_2.5.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/yellowblack_2.5.jpeg',
     brand: 'lowcost',
   },
   {
@@ -1821,8 +1779,7 @@ export const PRODUCTS: Product[] = [
     name: 'yellownatural',
     size: 'S95',
     price: 2.5,
-    imageUrl:
-      'assets/images/watermarked/lowcost/yellownatural_S95.jpeg',
+    imageUrl: 'assets/images/watermarked/lowcost/yellownatural_S95.jpeg',
     brand: 'lowcost',
   },
 ];
