@@ -128,15 +128,7 @@ export const PRODUCTS: Product[] = [
     brand: 'Killer',
     isNew: true,
   },
-  {
-    id: 'killer-wboS',
-    name: 'Killer WBO',
-    size: 'S',
-    price: 4.55,
-    imageUrl: 'assets/images/watermarked/killer/KILLER_WBO_S.jpeg',
-    brand: 'Killer',
-    isNew: true,
-  },
+
   {
     id: 'killer-WPP2.5',
     name: 'Killer WPP',
