@@ -88,7 +88,7 @@ declare let grecaptcha: any;
                 Preço: <span>{{ item.price }} €</span>
               </div>
               <div class="summary-line-total">
-                Subtotal: <span>{{ item.qty * item.price }} €</span>
+                Subtotal: <span>{{ (item.qty * item.price).toFixed(2) }} €</span>
               </div>
             </div>
           </div>
@@ -99,7 +99,7 @@ declare let grecaptcha: any;
             Total de itens: <span>{{ cart.totalQuantity() }}</span>
           </div>
           <div class="summary-total">
-            Total: <span>{{ cart.totalPrice() }} €</span>
+            Total: <span>{{ cart.totalPrice().toFixed(2) }} €</span>
           </div>
         </div>
       </div>
@@ -901,7 +901,7 @@ export class CheckoutPageComponent implements AfterViewInit, OnDestroy {
         )
         .join('\n');
       const shipping = cartItems.find((i) => i.id === '__shipping__');
-      const total = this.cart.totalPrice();
+      const total = this.cart.totalPrice().toFixed(2);
 
       // Simplified approach - build product list as HTML string
       const productItems = cartItems.filter((i) => i.id !== '__shipping__');
@@ -912,7 +912,7 @@ export class CheckoutPageComponent implements AfterViewInit, OnDestroy {
         const itemSize = item.size ? ` (${item.size})` : '';
         const itemQty = item.qty || 0;
         const itemPrice = item.price || 0;
-        const itemSubtotal = itemQty * itemPrice;
+        const itemSubtotal = (itemQty * itemPrice).toFixed(2);
 
         // Convert relative URL to absolute URL for email
         let itemImage = item.imageUrl || '';

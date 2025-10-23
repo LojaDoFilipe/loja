@@ -39,7 +39,7 @@ import { Router } from '@angular/router';
           </div>
           } @else {
           <div class="cart-header-meta">
-            <div class="total-inline">Total: {{ cart.totalPrice() }} €</div>
+            <div class="total-inline">Total: {{ cart.totalPrice().toFixed(2) }} €</div>
             <button
               type="button"
               class="clear-btn"
@@ -100,7 +100,7 @@ import { Router } from '@angular/router';
                   >
                     +
                   </button>
-                  <span class="line-total">= {{ item.qty * item.price }} €</span>
+                  <span class="line-total">= {{ (item.qty * item.price).toFixed(2) }} €</span>
                 </div>
               </div>
               <button type="button" (click)="remove(item.id, item.size)" aria-label="Remover">
@@ -144,13 +144,13 @@ import { Router } from '@angular/router';
             <div class="ship-sub">
               @if (cart.subtotal() < 60) {
               <div class="remaining">
-                Faltam <strong>{{ remainingToFree() }} €</strong> em produtos para portes grátis
+                Faltam <strong>{{ remainingToFree().toFixed(2) }} €</strong> em produtos para portes grátis
               </div>
               <div class="subtotal-note big-note">
-                Subtotal produtos: {{ cart.subtotal() }} € | Portes grátis ≥ 60 €
+                Subtotal produtos: {{ cart.subtotal().toFixed(2) }} € | Portes grátis ≥ 60 €
               </div>
               <div class="ship-progress footer" aria-hidden="true">
-                <div class="bar" [style.width.%]="(cart.subtotal() / 60) * 100"></div>
+                <div class="bar" [style.width.%]="subtotalBarWidth"></div>
               </div>
               }
             </div>
@@ -977,6 +977,13 @@ import { Router } from '@angular/router';
 export class CartFabComponent {
   cart = inject(CartService);
   private readonly router = inject(Router);
+
+  get subtotalBarWidth(): number {
+  const subtotal = this.cart.subtotal();
+  const rounded = Math.round(subtotal * 100) / 100;
+  const width = (rounded / 60) * 100;
+  return Math.min(width, 100); // Optional: clamp to 100%
+}
 
   finalizarCompra() {
     this.toggle(false); // Close cart before navigating

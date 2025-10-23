@@ -2,6 +2,42 @@ import type { Product } from '../models/product';
 
 export const PRODUCTS: Product[] = [
   // Killer images
+    {
+    id: 'killer-pbpbS',
+    name: 'Killer PBPB',
+    size: 'S',
+    price: 4.55,
+    imageUrl: 'assets/images/watermarked/killer/KILLER_PBPB_S.jpeg',
+    brand: 'Killer',
+    isNew: true,
+  },
+    {
+    id: 'killer-pbwS',
+    name: 'Killer PBW',
+    size: 'S',
+    price: 4.55,
+    imageUrl: 'assets/images/watermarked/killer/KILLER_PBW_S.jpeg',
+    brand: 'Killer',
+    isNew: true,
+  },
+    {
+    id: 'killer-WPPS',
+    name: 'Killer WPP',
+    size: 'S',
+    price: 4.55,
+    imageUrl: 'assets/images/watermarked/killer/KILLER_WPP_S.jpeg',
+    brand: 'Killer',
+    isNew: true,
+  },
+    {
+    id: 'killer-wboS',
+    name: 'Killer WBO',
+    size: 'S',
+    price: 4.55,
+    imageUrl: 'assets/images/watermarked/killer/KILLER_WBO_S.jpeg',
+    brand: 'Killer',
+    isNew: true,
+  },
   {
     id: 'killer-bryel2.5',
     name: 'Killer BRYE',
@@ -48,11 +84,11 @@ export const PRODUCTS: Product[] = [
     isNew: true,
   },
   {
-    id: 'killer-pbpbS',
+    id: 'killer-pbpb3.0',
     name: 'Killer PBPB',
-    size: 'S',
+    size: '3.0',
     price: 4.55,
-    imageUrl: 'assets/images/watermarked/killer/KILLER_PBPB_S.jpeg',
+    imageUrl: 'assets/images/watermarked/killer/KILLER_PBPB_3.0.jpeg',
     brand: 'Killer',
     isNew: true,
   },
@@ -74,15 +110,7 @@ export const PRODUCTS: Product[] = [
     brand: 'Killer',
     isNew: true,
   },
-  {
-    id: 'killer-pbwS',
-    name: 'Killer PBW',
-    size: 'S',
-    price: 4.55,
-    imageUrl: 'assets/images/watermarked/killer/KILLER_PBW_S.jpeg',
-    brand: 'Killer',
-    isNew: true,
-  },
+
   {
     id: 'killer-pipu3.0',
     name: 'Killer PIPU',
@@ -147,15 +175,7 @@ export const PRODUCTS: Product[] = [
     brand: 'Killer',
     isNew: true,
   },
-  {
-    id: 'killer-WPPS',
-    name: 'Killer WPP',
-    size: 'S',
-    price: 4.55,
-    imageUrl: 'assets/images/watermarked/killer/KILLER_WPP_S.jpeg',
-    brand: 'Killer',
-    isNew: true,
-  },
+
   {
     id: 'killer-bsrdl2.5',
     name: 'Killer bsrdl',
@@ -253,14 +273,6 @@ export const PRODUCTS: Product[] = [
     size: '2.5',
     price: 4.5,
     imageUrl: 'assets/images/watermarked/killer/xagr.jpeg',
-    brand: 'Killer',
-  },
-  {
-    id: 'killer-xapu3.0',
-    name: 'Killer xapu',
-    size: '3.0',
-    price: 4.5,
-    imageUrl: 'assets/images/watermarked/killer/xapu3.0.jpeg',
     brand: 'Killer',
   },
   {
@@ -1374,14 +1386,7 @@ export const PRODUCTS: Product[] = [
     imageUrl: 'assets/images/watermarked/DTD/shrimp_oita_3.0_green.jpeg',
     brand: 'DTD',
   },
-  {
-    id: 'toro_s_blackRed',
-    name: 'toro blackRed',
-    size: 'S',
-    price: 7.5,
-    imageUrl: 'assets/images/watermarked/DTD/toro_s_blackRed.jpeg',
-    brand: 'DTD',
-  },
+
   {
     id: 'triglia_s_yellowRed',
     name: 'triglia yellowRed',
