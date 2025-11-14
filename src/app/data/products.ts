@@ -734,14 +734,6 @@ export const PRODUCTS: Product[] = [
 
   // Yamashita
   {
-    id: 'yamashita-eginno-pyon-3.0-r07',
-    name: 'Eginno Pyon R07',
-    size: '3.0',
-    price: 15,
-    imageUrl: 'assets/images/watermarked/yamashita/eginnopyon3.0R07.jpeg',
-    brand: 'Yamashita',
-  },
-  {
     id: 'yamashita-toto-sutte-ws95nd-fg',
     name: 'Toto Sutte FG',
     size: 'WS95ND',
