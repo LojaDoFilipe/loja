@@ -39,15 +39,6 @@ export const PRODUCTS: Product[] = [
     isNew: true,
   },
   {
-    id: 'killer-bryel2.5',
-    name: 'Killer BRYE',
-    size: '2.5',
-    price: 4.55,
-    imageUrl: 'assets/images/watermarked/killer/KILLER_BRYE_2.5.jpeg',
-    brand: 'Killer',
-    isNew: true,
-  },
-  {
     id: 'killer-hobo2.5',
     name: 'Killer HOBO',
     size: '2.5',
