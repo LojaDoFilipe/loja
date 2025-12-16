@@ -1,6 +1,47 @@
 import type { Product } from '../models/product';
 
 export const PRODUCTS: Product[] = [
+  // PROCHOCO
+   {
+    id: 'prochoco-pintas2.5',
+    name: 'Pintas',
+    size: '2.5',
+    price: 8,
+    imageUrl: 'assets/images/watermarked/PROCHOCO/pintas2.5.png',
+    brand: 'PROCHOCO',
+    isNew: true,
+  },
+  {
+    id: 'prochoco-pintas3.0',
+    name: 'Pintas',
+    size: '3.0',
+    price: 8,
+    imageUrl: 'assets/images/watermarked/PROCHOCO/pintas3.0.png',
+    brand: 'PROCHOCO',
+    isNew: true,
+  },
+  {
+    id: 'prochoco-circus2.5',
+    name: 'Circus',
+    size: '2.5',
+    price: 8,
+    imageUrl: 'assets/images/watermarked/PROCHOCO/circus2.5.png',
+    brand: 'PROCHOCO',
+    isNew: true,
+  },
+  {
+    id: 'prochoco-circus3.0',
+    name: 'Circus',
+    size: '3.0',
+    price: 8,
+    imageUrl: 'assets/images/watermarked/PROCHOCO/circus3.0.png',
+    brand: 'PROCHOCO',
+    isNew: true,
+  },
+
+
+
+
   // Killer images
     {
     id: 'killer-pbpbS',

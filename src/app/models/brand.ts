@@ -1,1 +1,1 @@
-export type Brand = 'Yamashita' | 'Yo-Zuri' | 'Killer' | 'DTD' | 'Outras Marcas' | 'lowcost';
+export type Brand = 'PROCHOCO' | 'Yamashita' | 'Yo-Zuri' | 'Killer' | 'DTD' | 'Outras Marcas' | 'lowcost';

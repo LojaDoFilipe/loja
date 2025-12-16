@@ -83,6 +83,8 @@ export class BrandSelectComponent {
   brandImage(brand: Brand): string {
     // Map brand literal to file names provided by user
     switch (brand) {
+         case 'PROCHOCO':
+        return 'assets/images/marcas/prochoco.jpg';
       case 'Yo-Zuri':
         return 'assets/images/marcas/yozuri.jpg';
       case 'Killer':
