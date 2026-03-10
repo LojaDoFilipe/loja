@@ -16,7 +16,7 @@ export class CartService {
   private readonly _items = signal<CartItem[]>(this.restore());
   private readonly shippingId = '__shipping__';
   private readonly shippingLabel = 'Portes de Envio';
-  private readonly baseShipping = 5; // €
+  private readonly baseShipping = 5.4; // €
   private readonly freeShippingThreshold = 60; // € (products subtotal)
 
   /** Core (non-shipping) items */
